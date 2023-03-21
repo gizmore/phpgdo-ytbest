@@ -6,21 +6,21 @@ use GDO\Core\GDO_Module;
 /**
  * Global Rating of youtube videos.
  * Comments proxy for comments disabled.
- * 
- * @author gizmore
+ *
  * @version 7.0.1
  * @since 7.0.1
+ * @author gizmore
  */
 final class Module_YTBest extends GDO_Module
 {
-	
+
 	public int $priority = 150;
-	
+
 	public function isSiteModule(): bool
 	{
 		return true;
 	}
-	
+
 	public function getDependencies(): array
 	{
 		return [
@@ -34,7 +34,7 @@ final class Module_YTBest extends GDO_Module
 			'YouTube',
 		];
 	}
-	
+
 	public function getClasses(): array
 	{
 		return [
@@ -43,7 +43,6 @@ final class Module_YTBest extends GDO_Module
 			YT_VideoVote::class,
 		];
 	}
-	
-	
-	
+
+
 }

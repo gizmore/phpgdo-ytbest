@@ -1,18 +1,18 @@
 <?php
 namespace GDO\YTBest;
 
+use GDO\Comments\CommentedObject;
 use GDO\Core\GDO;
 use GDO\Core\GDT_AutoInc;
-use GDO\Votes\WithVotes;
-use GDO\Comments\CommentedObject;
 use GDO\Core\GDT_Object;
-use GDO\YouTube\GDO_YTVideo;
 use GDO\User\GDO_User;
+use GDO\Votes\WithVotes;
+use GDO\YouTube\GDO_YTVideo;
 
 /**
  *
  * @author gizmore
- *        
+ *
  */
 final class YT_Video extends GDO
 {

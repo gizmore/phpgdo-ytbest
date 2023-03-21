@@ -1,12 +1,10 @@
 <?php
 namespace GDO\YTBest\Method;
 
-use GDO\Core\Method;
-use GDO\Form\GDT_Form;
-use GDO\Form\MethodForm;
-use GDO\Form\GDT_Submit;
-use GDO\Core\GDT_Object;
 use GDO\Core\GDT_Token;
+use GDO\Form\GDT_Form;
+use GDO\Form\GDT_Submit;
+use GDO\Form\MethodForm;
 
 final class Checkout extends MethodForm
 {
@@ -20,7 +18,4 @@ final class Checkout extends MethodForm
 	}
 
 
-
-
-	
 }
